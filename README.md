@@ -61,8 +61,22 @@ Dalam project ini, kita menggabungkan semua dataset menjadi satu dan hanya akan 
    
    ![token](https://github.com/Aditya1614/HOAX-Text-Classification-BERT/assets/93992324/08dacf16-0e67-4c9e-90b5-c8e1517941f6)
 
-   
+## Modelling
+Dalam project ini kami menggunakan transfer learning dan fine tuning BERT (Bidirectional Encoder Representations from Transformers).
 
+Fine tuning
+- optimizer= AdamW
+- learning rate= 2e-5
+- epoch= 3
+- batch size= 32
+
+Setelah dilakukan fine tuning 
+
+![train](https://github.com/Aditya1614/HOAX-Text-Classification-BERT/assets/93992324/e0737ba4-070d-4d0f-94c5-976a31ee7151)
+
+Terlihat bahwa pada epoch terakhir akurasi validasi cukup tinggi yaitu 0.98
+
+## Evaluasi
    
 
     
