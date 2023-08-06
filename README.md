@@ -77,6 +77,15 @@ Setelah dilakukan fine tuning
 Terlihat bahwa pada epoch terakhir akurasi validasi cukup tinggi yaitu 0.98
 
 ## Evaluasi
-   
+Setelah dilakukan fine tuning kita tes model dengan data uji
+
+![eval](https://github.com/Aditya1614/HOAX-Text-Classification-BERT/assets/93992324/356c3e2a-5eb0-4365-84d0-3e90fc461324)
+
+Terlihat bahwa skor precision, recall, dan f1-score cukup tinggi yaitu sekitar 0.98
+
+Jika dilihat di confusion matriks juga terlihat bahwa hasil prediksi false positive dan false negative sangat sedikit. Ini berarti model ini sudah GoodFit atau sudah bagus.
+
+![confus](https://github.com/Aditya1614/HOAX-Text-Classification-BERT/assets/93992324/044f88ee-f939-4b10-9311-28bdbfe9e9dd)
+
 
     
