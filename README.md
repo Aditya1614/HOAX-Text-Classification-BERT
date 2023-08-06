@@ -57,7 +57,11 @@ Dalam project ini, kita menggabungkan semua dataset menjadi satu dan hanya akan 
 
 3. Tokenizer
 
-   Dalam project ini, kami menggunakan tokenizer "bert-base-multilingual-cased". Tokenizer ini adalah pre-trained model yang telah dilatih menggunakan 104 bahasa termasuk bahasa indonesia. Untuk menggunakan tokenizer ini kita tidak perlu menghapus stopword karena tokenizer ini dapat mengenali makna dari teks, menghapus stopword hanya akan menghilangkan makna dari teks tersebut. Kita juga tidak melakukan stemming karena tokenizer ini sendiri dapat memecah kata menjadi sub-kata
+   Dalam project ini, kami menggunakan tokenizer "bert-base-multilingual-cased". Tokenizer ini adalah pre-trained model yang telah dilatih menggunakan 104 bahasa termasuk bahasa indonesia. Untuk menggunakan tokenizer ini kita tidak perlu menghapus stopword karena tokenizer ini dapat mengenali makna dari teks, menghapus stopword hanya akan menghilangkan makna dari teks tersebut. Kita juga tidak melakukan stemming karena tokenizer ini sendiri dapat memecah kata menjadi sub-kata, sebagai contoh untuk teks "Politisi PAN Nilai Reshuffle Kabinet Masih Berorientasi Politik" makan token id akan menjadi seperti ini
+   
+   ![token](https://github.com/Aditya1614/HOAX-Text-Classification-BERT/assets/93992324/08dacf16-0e67-4c9e-90b5-c8e1517941f6)
+
+   
 
    
 
