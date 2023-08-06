@@ -55,7 +55,9 @@ Dalam project ini, kita menggabungkan semua dataset menjadi satu dan hanya akan 
 
    Disini kita membagi data menjadi data latih dan data uji dengan proporsi 90-10. Sehingga terdapat 28.198 data latih dan 3134 data uji.
 
-3. 
+3. Tokenizer
+
+   Dalam project ini, kami menggunakan tokenizer "bert-base-multilingual-cased". Tokenizer ini adalah pre-trained model yang telah dilatih menggunakan 104 bahasa termasuk bahasa indonesia. Untuk menggunakan tokenizer ini kita tidak perlu menghapus stopword karena tokenizer ini dapat mengenali makna dari teks, menghapus stopword hanya akan menghilangkan makna dari teks tersebut. Kita juga tidak melakukan stemming karena tokenizer ini sendiri dapat memecah kata menjadi sub-kata
 
    
 
