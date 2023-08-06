@@ -1,5 +1,7 @@
 # HOAX-Text-Classification-BERT
 
+## Project Overview
+
 <img src="https://github.com/Aditya1614/HOAX-Text-Classification-BERT/assets/93992324/1f677618-fa13-40a6-b959-7c09d7c4fa3c" width="700">
 
 ## Problem Understanding
